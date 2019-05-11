@@ -1,0 +1,346 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Realizar login",
+        "description": "",
+        "id": "login;realizar-login",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 186368482,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu esteja na tela de login",
+            "match": {
+              "location": "LoginSteps.queEuEstejaNaTelaDeLogin()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3580731,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "faço login com o usuário \"mercury\" e senha \"mercury\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mercury",
+                  "offset": 26
+                },
+                {
+                  "val": "mercury",
+                  "offset": 44
+                }
+              ],
+              "location": "LoginSteps.façoLoginComOUsuárioESenha(String,String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 23607,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sou autenticado com sucesso",
+            "match": {
+              "location": "LoginSteps.souAutenticadoComSucesso()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@ScenarioComum"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Tentativa de Login",
+        "description": "",
+        "id": "login;tentativa-de-login;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 47715,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "que eu esteja na tela de login",
+            "match": {
+              "location": "LoginSteps.queEuEstejaNaTelaDeLogin()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 573532,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "faço login com o usuário \"mercury\" e senha \"mer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mercury",
+                  "offset": 26
+                },
+                {
+                  "val": "mer",
+                  "offset": 44
+                }
+              ],
+              "location": "LoginSteps.façoLoginComOUsuárioESenha(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 29149,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "sou direcionado para a tela Sign-On",
+            "match": {
+              "location": "LoginSteps.souDirecionadoParaATelaSignOn()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@ScenarioOutline"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Tentativa de Login",
+        "description": "",
+        "id": "login;tentativa-de-login;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 40842,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "que eu esteja na tela de login",
+            "match": {
+              "location": "LoginSteps.queEuEstejaNaTelaDeLogin()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1336136,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "faço login com o usuário \"123434\" e senha \"34\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123434",
+                  "offset": 26
+                },
+                {
+                  "val": "34",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginSteps.façoLoginComOUsuárioESenha(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 29569,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "sou direcionado para a tela Sign-On",
+            "match": {
+              "location": "LoginSteps.souDirecionadoParaATelaSignOn()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@ScenarioOutline"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Tentativa de Login",
+        "description": "",
+        "id": "login;tentativa-de-login;;4",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 49255,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "que eu esteja na tela de login",
+            "match": {
+              "location": "LoginSteps.queEuEstejaNaTelaDeLogin()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 137603,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "faço login com o usuário \"\" e senha \"34\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 26
+                },
+                {
+                  "val": "34",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginSteps.façoLoginComOUsuárioESenha(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 33307,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "sou direcionado para a tela Sign-On",
+            "match": {
+              "location": "LoginSteps.souDirecionadoParaATelaSignOn()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@ScenarioOutline"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Realizar login",
+        "description": "",
+        "id": "login;realizar-login",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 40107,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "que eu esteja na tela de login",
+            "match": {
+              "location": "LoginSteps.queEuEstejaNaTelaDeLogin()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1658299,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "faço login com:",
+            "match": {
+              "location": "LoginSteps.façoLoginCom(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "usuario",
+                  "mercury"
+                ],
+                "line": 30
+              },
+              {
+                "cells": [
+                  "senha",
+                  "12345678"
+                ],
+                "line": 31
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 24608,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "sou direcionado para a tela Sign-On",
+            "match": {
+              "location": "LoginSteps.souDirecionadoParaATelaSignOn()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@ScenarioDataTable"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/login.feature"
+  }
+]
